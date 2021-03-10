@@ -1,0 +1,69 @@
+body{
+    background: rgb(133,124,255);
+    background: radial-gradient(circle, rgb(64, 122, 248) 0%, rgba(129,213,224,1) 100%);
+}
+
+
+.continor {
+    text-align: center;
+    display:flex;
+    justify-content:center;
+}
+
+.capsolle{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0 ;
+}
+
+.content{
+    margin: 0 3%;
+    color: white;
+}
+.content-title{
+    margin: 0 0 0 0;
+}
+
+.capsolle-battle{
+    display:flex;
+    
+    margin: 15% 0 0 0;
+    width:600px;
+    height: 100%;
+
+}
+.capsolle-area{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% 0 0 0 ;
+}
+.title-area{
+    margin : 0 0 0 0 ;
+}
+.title-hader{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+.battle-player{
+    margin: 0 35% 0 05% ;
+    transform: scale(1.5);
+}
+.battle-enemy{
+    margin: 0 0 0 15% ;
+    transform: scale(1.5);
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+.icon-battle {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border-width: 15px;
+    border-style: solid;
+
+}

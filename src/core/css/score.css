@@ -1,0 +1,59 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border:5px solid white;
+    margin:3% 25% 5% 25%;
+    background-color: white;
+    border-radius:150px;
+}
+
+@media screen and (max-width:450px) {
+    .content-title{
+        font-size:1.0rem;
+    }
+    .points{
+        font-size:1.2rem; 
+    }
+}
+
+@media screen and (min-width:740px) {
+    .content-title{
+        font-size:1.8rem;
+    }
+    .points{
+        font-size:1.9rem; 
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .content-title{
+        font-size:1.8rem;
+    }
+    .points{
+        font-size:1.9rem; 
+    }
+}
+
+
+
+@media screen and (min-width:1280px) {
+    .content-title{
+        font-size:1.8rem;
+    }
+    .points{
+        font-size:1.9rem; 
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    .content-title{
+        font-size:1.8rem;
+    }
+    .points{
+        font-size:1.9rem; 
+    }
+}
